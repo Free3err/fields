@@ -1,3 +1,47 @@
-main .item {
-    border: #57606a solid 0.5px;
+main .blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    div {
+        background: #161b22;
+        border: #57606a solid 0.5px;
+        border-radius: 10px;
+        margin: 0 5px;
+    }
+}
+
+#infoBlock_1 {
+    height: 209px;
+    width: 423px;
+    order: 1;
+}
+
+#infoBlock_2 {
+    width: 271px;
+    height: 209px;
+    order: 1;
+}
+
+#infoBlock_3 {
+    height: 150px;
+    width: 308px;
+    order: 3;
+}
+
+#infoBlock_4 {
+    height: 150px;
+    width: 386px;
+    order: 3;
+}
+
+#signInBlock {
+    height: 282px;
+    width: 232px;
+    order: 2;
+}
+
+.footer_items a:hover {
+    border-bottom: #ffffff solid 0.5px;
+    border-radius: 0.5px;
 }

@@ -10,11 +10,12 @@ body {
 }
 
 header {
-    background: 010409;
+    background: #010409;
     border-bottom: #57606a solid 0.5px;
     height: 40px;
     display: flex;
     align-items: center;
+    padding: 4px 0px;
 
     .logo {
         font-family: 'FiraCode Nerd Font';
@@ -23,12 +24,30 @@ header {
     }
 }
 
+footer {
+    height: 120px;
+    background: #010409;
+    border-top: #57606a solid 0.5px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px auto 86px auto;
+
+    li {
+        list-style-type: none;
+        font-weight: 600;
+        font-size: 10px;
+    }
+}
+
 a {
     text-decoration: none;
 }
 
 main {
-    margin-top: 30px;
+    margin: 30px auto 157.1px auto;
 }
 
 .container {
